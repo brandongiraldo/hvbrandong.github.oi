@@ -1,0 +1,180 @@
+<!----- Inciamos nuestro primer cógigo HTML de nuestro grlosario personal, con una actividad muy interesante  -->
+<html lang="es">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <meta content="text/html; charset=utf-8" http-equiv="content-type">
+  <meta name="author" content="Uriel Castañeda Sierra">
+  <meta name="description" content="Pagina WEB de mi glosario personal, correspondiente a la asignatura de Sistemas Operativos, ingeniería de sistemas, UNICOC">
+
+  <meta name="keywords" content="Glosario, Sistemas Operativos, Microprocesadores, Ingeniería, Sistemas, Unicoc">
+  <title>Glosario Sistemas Operativos</title>
+
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body bgcolor="#33FFFF">
+
+
+<header> <center>
+      <img src="data:image/png;base64,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">    
+      </center>
+      <h1>Mi glosario personal de Sistemas Operativos</h1>
+      <h2>Por:  Brandon Steven Pachon Giraldo </h2> 
+      <br><hr><br>
+</header>
+
+<main>
+     <section>
+        <p><b>A continuación encontrarás las definiciones de las principales palabras y expresiones relacionadas con la asignatura de Sistemas Operativos</b></p>
+        <br>
+        <details>
+            <summary>
+                 <h3>HTML</h3>
+            </summary>
+            <article>
+ 
+                 <p>HyperText Markup Language (lenguaje de marcado de hipertexto), hace referencia al lenguaje de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado código HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros.</p> 
+    
+            </article>
+        </details>
+        <br><br>
+
+        <details>
+            <summary>
+               <h3>WWW</h3>
+          </summary>
+            <article>
+ 
+                 <p>World Wide Web (red informática mundial) es un sistema que funciona a través de internet, por el cual se pueden transmitir diversos tipos de datos a través del Protocolo de Transferencia de Hipertextos o HTTP, que son los enlaces de la página web.</p> 
+
+            </article>
+        </details>     
+   
+        <br><br>
+        <details>
+            <summary>
+               <h3>Internet</h3>
+            </summary>
+            <article>
+ 
+                 <p>es un conjunto descentralizado de redes de comunicaciones interconectadas, que utilizan la familia de protocolos TCP/IP, lo cual garantiza que las redes físicas heterogéneas que la componen constituyen una red lógica única de alcance mundial. Sus orígenes se remontan a 1969, cuando se estableció la primera conexión de computadoras, conocida como ARPANET, entre tres universidades en California</p> 
+    
+            </article>
+        </details>           
+        <br><br>
+
+        <details>
+            <summary>
+               <h3>TCP/IP</h3>
+            </summary>
+            <article>
+ 
+                 <pLa familia de protocolos de internet o pila de protocolos de Internet es un conjunto constituido por los protocolos de red clave que componen la arquitectura de internet y que permiten la comunicación efectiva y la transmisión de datos entre computadoras.</p> 
+    
+            </article>
+        </details>        
+        <br><br>
+
+        <details>
+            <summary>
+               <h3>HTTP</h3>
+            </summary>
+            <article>
+ 
+                 <p>(Hypertext Transfer Protocol) es el protocolo de comunicación que permite las transferencias de información a través de archivos (XML, HTML…) en la World Wide Web.</p> 
+    
+            </article>
+        </details>           
+        <br><br>
+
+        <details>
+          <summary>
+               <h3>URL</h3>
+          </summary>
+          <article>
+
+               <p>(Uniform Resource Locator) es un identificador de recursos uniforme (Uniform Resource Identifier, URI) cuyos recursos referidos pueden cambiar, esto es, la dirección puede apuntar a recursos variables en el tiempo. Están formados por una secuencia de caracteres de acuerdo con un formato modélico y estándar que designa recursos en una red como, por ejemplo, Internet.</p>
+
+          </article>
+        </details>
+        <br><br>
+
+        <details>
+          <summary>
+               <h3>DHCP</h3>
+          </summary>
+          <article>
+
+               <p>(Dynamic Host Configuration Protocol), desarrollado a partir de 1985 como extensión de BOOTP, es un protocolo de red de tipo cliente/servidor mediante el cual un servidor DHCP asigna dinámicamente una dirección IP y otros parámetros de configuración de red a cada dispositivo en una red para que puedan comunicarse con otras redes IP. Este servidor posee una lista de direcciones IP dinámicas y las va asignando a los clientes conforme estas van quedando libres, sabiendo en todo momento quién ha estado en posesión de esa IP, cuánto tiempo la ha tenido y a quién se la ha asignado después. Así los clientes de una red IP pueden conseguir sus parámetros de configuración automáticamente.</p>
+
+          </article>
+        </details>
+        <br><br>
+
+        <details>
+          <summary>
+               <h3>OSI</h3>
+          </summary>
+          <article>
+
+               <p>(Open Systems Interconnection),  es un modelo conceptual creado por la Organización Internacional para la Estandarización, el cual permite que diversos sistemas de comunicación se conecten usando protocolos estándar. En otras palabras, el OSI proporciona un estándar para que distintos sistemas de equipos puedan comunicarse entre sí.</p>
+
+          </article>
+        </details>
+        <br><br>
+
+        <details>
+          <summary>
+               <h3>BIT</h3>
+          </summary>
+          <article>
+
+               <p>el bit corresponde a un dígito del sistema de numeración binario y representa la unidad mínima de información. El término es un acrónimo de binary digit (dígito binario; en menor medida llamado bitio). La capacidad de almacenamiento de una memoria digital también se mide en bits, pues esta palabra tiene varias acepciones.</p>
+
+          </article>
+        </details>
+        <br><br>
+
+
+        <details>
+          <summary>
+               <h3>BYTE</h3>
+          </summary>
+          <article>
+
+               <p> es la unidad de información de base utilizada en computación y en telecomunicaciones, y está compuesta por un conjunto ordenado de ocho bits. La unidad byte no tiene símbolo establecido internacionalmente, aunque en países anglosajones es frecuente representarlo como B, mientras que en los países francófonos con frecuencia se utiliza o (de octeto).</p>
+
+          </article>
+        </details>
+        <br><br>
+
+
+        <details>
+          <summary>
+               <h3>lenguaje de programación</h3>
+          </summary>
+          <article>
+
+               <p>proporciona a una persona, en este caso el programador, la capacidad y habilidad de escribir (o programar) una serie de instrucciones o secuencias de órdenes en forma de algoritmos con el fin de controlar el comportamiento físico o lógico de un sistema informático, para que de esa manera se puedan obtener diversas clases de datos o ejecutar determinadas tareas. A todo este conjunto de órdenes escritas mediante un lenguaje de programación se le denomina programa informático</p>
+
+          </article>
+        </details>
+        <br><br>
+
+
+
+     </section>    
+     <hr>
+</main>
+
+<footer>
+   <div class="footer-text">
+	<p>&copy; UNICOC  | Todos los derechos reservados | 2023 </p>
+   </div>
+
+</footer>
+
+
+</body>
+</html>
